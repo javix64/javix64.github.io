@@ -17,10 +17,10 @@ jobs:
         with:
           node-version: '20.x'
       
-      - name: Install dependencies and build resume.
-        run: |
-        npm install
-        npm run resume
+      - name: Install dependencies.
+        run: npm install 
+      - name: Build resume.
+        run: npm run resume
       
       - name: 📂 Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
