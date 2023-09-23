@@ -1,0 +1,263 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Javier Heredia Molero",
+    "label": "Full Stack Developer (React+NodeJS) / Automating boring stuffs / Data mining or Web Scraping",
+    "image": "https://javix64.github.io/public/profile_photo.png",
+    "email": "jav1.x64@gmail.com",
+    "url": "https://javix64.com",
+    "summary": "As a full-stack developer, I have acquired a diverse skill set encompassing React for dynamic front-end development, Node.js for robust server-side solutions, and the art of web scraping and automation. My proficiency in these technologies allows me to create modern, responsive web applications with a keen eye for user experience. I'm committed to staying updated with the latest industry trends, ensuring that I can deliver cutting-edge solutions to meet clients' needs effectively.",
+    "location": {
+      "city": "Leipzig",
+      "postalCode": "04205",
+      "countryCode": "DE",
+      "region": "Sachsen"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "Javier-Heredia-Molero",
+        "url": "https://linkedin.com/in/javier-heredia-molero"
+      },
+      {
+        "network": "GitHub",
+        "username": "Javix64",
+        "url": "https://github.com/javix64"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Foxxum GmbH",
+      "location": "Kiel, Schleswig-Holstein, Germany",
+      "position": "Full Stack Developer in Quality Assurance Department",
+      "url": "https://foxxum.com",
+      "startDate": "2021-08-01",
+      "endDate": "2023-07-31",
+      "summary": "Main task: Developer of an internal tool called: 'Test Suite' | Others minor tasks: Check backward compatibility with TV's. Do end to end testing for Foxxum Apps. Help third companies to fix bugs in their apps.",
+      "highlights": [
+        "Allow us to do get properties from several devices(TV's).",
+        "Do functionality tests with DRM (widevine & playready).",
+        "Analyze methods GET, POST, PUT, DELETE on requests & responses.",
+        "Analyze keyCodes send it by remote controller and compare with keyCodes on device properties.",
+        "Implementation of: hlsjs, dashjs, videojs, shaka & html5 native video.",
+        "Adapt end-to-end testing with TestCafe for TV's.",
+        "Navigation tests between screens in third parties applications.",
+        "I provided information and technical feedback on the possible problems that could be caused by the issues that the applications had."
+      ]
+    },
+    {
+      "name": "Foxxum GmbH",
+      "position": "Erasmus Developer Internship",
+      "startDate": "2021-03-31",
+      "endDate": "2021-06-30",
+      "highlights": [
+        "Comparison of end-to-end testing tools: Cypress & TestCafe. In order to check viability of this tools with TV's",
+        "I developed a music application for TV's with React.",
+        "I developed an application for a newsletter with React"
+      ],
+      "summary": "At this time, I learned how to handle React and how to deal with compatibility problems with TVs.",
+      "url": "https://foxxum.com",
+      "location": "Kiel, Schleswig-Holstein, Germany"
+    }
+  ],
+  "education": [
+    {
+      "institution": "I.E.S. FRANCISCO AYALA",
+      "url": "https://iesayala.com/",
+      "area": "Web Application Development",
+      "studyType": "Higher Technical Certificate (CFGS)",
+      "startDate": "2019",
+      "endDate": "2021",
+      "score": "",
+      "courses": [
+        "(Linux) Computer Systems",
+        "(MySQL) Databases",
+        "(Java) Programming",
+        "(HTML/CSS) Markup languages and information management Systems",
+        "Development environments",
+        "(Javascript) Web Development in client",
+        "(NodeJS)Web development in server",
+        "Web application deployment",
+        "(SASS/SCSS) Web Interface design",
+        "Final Project - End to end Testing: Cypress VS TestCafe"
+      ]
+    },
+    {
+      "institution": "I.E.S. PADRE SUAREZ",
+      "studyType": "Bachelor certificate",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "institution": "I.E.S. AVE MARIA 'LA QUINTA'",
+      "studyType": "Secondary Education Certificate",
+      "startDate": "2006",
+      "endDate": "2010"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front-end Development",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "SCSS/SASS/CSS",
+        "Javascript",
+        "ReactJS",
+        "Redux.js",
+        "Bootstrap",
+        "Material Design",
+        "WebPack",
+        "Vite",
+        "Babel",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Node.js",
+        "Restful API's",
+        "Playwright-chromium",
+        "pm2",
+        "expressJS",
+        "koaJS",
+        "MongoDB",
+        "MySQL/MariaDB",
+        "sqlite3"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Advanced",
+      "keywords": ["Git", "Git flow", "Github"]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Master",
+      "keywords": [
+        "Motivate people to do their best",
+        "People and interpersonal skills",
+        "Good communicator",
+        "self-learning",
+        "Critical thinking",
+        "Enthusiast",
+        "Loyal",
+        "Initiative",
+        "Involvement"
+      ]
+    },
+    {
+      "name": "Other Development Skills",
+      "level": "Intermediate",
+      "keywords": [
+        "Linux/Bash",
+        "NFC",
+        "Arduino",
+        "Raspberry",
+        "Basic electronic / Soldering"
+      ]
+    },
+    {
+      "name": "CMS",
+      "level": "Intermediate",
+      "keywords": ["WordPress", "Strapi"]
+    },
+    {
+      "name": "Other programming languages",
+      "level": "Beginner",
+      "keywords": ["Java", "Python"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Nature"
+    },
+    {
+      "name": "Cycling"
+    },
+    {
+      "name": "Dancing"
+    },
+    {
+      "name": "Cooking"
+    }
+  ],
+  "projects": [
+    {
+      "name": "(Private) Whatsapp translater",
+      "description": "Still in progress. Now I live in Germany. Because of this, I have several groups of German friends and several chats with Germans. To avoid copying and pasting every time they write a message, I came up with the idea of creating a translator for WhatsApp. I used whatsapp-web.js for the bot & playwright-chromium for scrape DeepL",
+      "keywords": ["whatsapp-web.js", "Playwright-Chromium", "pm2"],
+      "startDate": "2023-06-10",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    },
+    {
+      "name": "Wg-Gesucht-post",
+      "description": "I decided to create a tool that allow me to send messages in bulk for all ads/offers given a valid URL. It contains two parts: frontend/backend. Frontend is made in React.js & Backend is made in Koa",
+      "keywords": ["Koa", "Playwright-chromium", "react", "formik", "axios"],
+      "startDate": "2023-09-04",
+      "url": "https://github.com/javix64/wg-gesucht-post",
+      "type": "application"
+    },
+    {
+      "name": "(Private) Comics scraping + Publish by WooCommerce API in his WordPress site",
+      "description": "A client wanted to obtain the data of all the comics on a wholesale website and then publish them all on their website via the WooCommerce API.",
+      "keywords": ["Koa", "Playwright-chromium", "react", "formik", "axios"],
+      "startDate": "2022-04-17",
+      "endDate": "2023-07-27",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    },
+    {
+      "name": "(Private) Scraping Videos",
+      "description": "In 2021, I subscribed to a famous video website. I started browsing the API and realized that after my subscription ended, the API was still working without problems, so I decided to download all the videos.",
+      "keywords": ["axios", "mongoose", "nodejs-file-downloader"],
+      "startDate": "2021-08-21",
+      "endDate": "2022-02-08",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    },
+    {
+      "name": "(Private) G2 PDF Evolution",
+      "description": "A friend and I decided to make an application for pdf generation through heroku web and a telegram bot",
+      "keywords": [
+        "axios",
+        "express",
+        "node-cron",
+        "node-telegram-bot-api",
+        "pdf-lib"
+      ],
+      "startDate": "2021-12-07",
+      "endDate": "2021-12-21",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    }
+  ],
+  "references": [],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "volunteer": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2023-09-21T12:55:00"
+  }
+}

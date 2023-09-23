@@ -7,13 +7,25 @@ jobs:
   FTP-Deploy-Action:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      
+      - name: Install dependencies and build resume.
+        run: |
+        npm install
+        npm run resume
+      
       - name: 📂 Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
+          local-dir: ./public/
           server: ${{ secrets.FTP_IP }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}

@@ -1,0 +1,246 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Javier Heredia Molero",
+    "label": "Desarrollador Full Stack (React+NodeJS) / Automatización de cosas aburridas / Minería de datos o Web Scraping",
+    "image": "https://javix64.github.io/public/profile_photo.png",
+    "email": "jav1.x64@gmail.com",
+    "url": "https://javix64.com",
+    "summary": "Como desarrollador full-stack, he adquirido un conjunto diverso de habilidades que abarcan React para el desarrollo front-end dinámico, Node.js para soluciones sólidas del lado del servidor y el arte del web scraping y la automatización. Mi dominio de estas tecnologías me permite crear aplicaciones web modernas y responsivas con un buen ojo para la experiencia del usuario. Me comprometo a mantenerme actualizado con las últimas tendencias de la industria, asegurándome de poder ofrecer soluciones de vanguardia para satisfacer las necesidades de los clientes de manera efectiva.",
+    "location": {
+      "city": "Leipzig",
+      "postalCode": "04205",
+      "countryCode": "DE",
+      "region": "Sajonia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Javier Heredia Molero",
+        "url": "https://linkedin.com/in/javier-heredia-molero"
+      },
+      {
+        "network": "GitHub",
+        "username": "javix64",
+        "url": "https://github.com/javix64"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Foxxum GmbH",
+      "location": "Kiel, Schleswig-Holstein, Alemania",
+      "position": "Desarrollador Full Stack en Departamento de Garantía de Calidad",
+      "url": "https://foxxum.com",
+      "startDate": "2021-08-01",
+      "endDate": "2023-07-31",
+      "summary": "Tarea principal: Desarrollador de una herramienta interna llamada: 'Test Suite' | Otras tareas menores: comprobar la compatibilidad con versiones anteriores de los televisores. Realice pruebas de extremo a extremo para las aplicaciones Foxxum. Ayuda a terceras empresas a corregir errores en sus aplicaciones.",
+      "highlights": [
+        "Permítanos obtener propiedades de varios dispositivos (TV).",
+        "Realizar pruebas de funcionalidad con DRM (widevine y playready).",
+        "Analice los métodos GET, PUBLICAR, PUT, DELETE en solicitudes y respuestas.",
+        "Analice los códigos clave, envíelos por control remoto y compárelos con los códigos clave en las propiedades del dispositivo.",
+        "Implementación de: hlsjs, dashjs, videojs, shaka y html5 video nativo.",
+        "Adapte las pruebas de un extremo a otro con TestCafe para televisores.",
+        "Pruebas de navegación entre pantallas en aplicaciones de terceros.",
+        "Proporcioné información y comentarios técnicos sobre los posibles problemas que podrían causar los problemas que tenían las aplicaciones."
+      ]
+    },
+    {
+      "name": "Foxxum GmbH",
+      "position": "Prácticas de desarrollador Erasmus",
+      "startDate": "2021-03-31",
+      "endDate": "2021-06-30",
+      "highlights": [
+        "Comparación de herramientas de prueba de un extremo a otro: Cypress y TestCafe. Para comprobar la viabilidad de estas herramientas con televisores.",
+        "Desarrollé una aplicación de música para TV con React.",
+        "Desarrollé una aplicación para newsletter con React"
+      ],
+      "summary": "En ese momento, aprendí cómo manejar React y cómo lidiar con problemas de compatibilidad con televisores.",
+      "url": "https://foxxum.com",
+      "location": "Kiel, Schleswig-Holstein, Alemania"
+    }
+  ],
+  "education": [
+    {
+      "institution": "IES FRANCISCO AYALA",
+      "url": "https://iesayala.com/",
+      "area": "Desarrollo de aplicaciones web",
+      "studyType": "Certificado Técnico Superior (CFGS)",
+      "startDate": "2019",
+      "endDate": "2021",
+      "score": "--",
+      "courses": [
+        "(Linux) Sistemas informáticos",
+        "(MySQL) Bases de datos",
+        "(Java) Programación",
+        "(HTML/CSS) Lenguajes de marcado y sistemas de gestión de información",
+        "Entornos de desarrollo",
+        "(Javascript) Desarrollo Web en cliente",
+        "(NodeJS)Desarrollo web en servidor",
+        "Implementación de aplicaciones web",
+        "(SASS/SCSS) Diseño de interfaz web",
+        "Proyecto Final - Pruebas de extremo a extremo: Cypress VS TestCafe"
+      ]
+    },
+    {
+      "institution": "IES PADRE SUÁREZ",
+      "studyType": "certificado de licenciatura",
+      "startDate": "2017",
+      "endDate": "2019"
+    },
+    {
+      "institution": "IES AVE MARÍA 'LA QUINTA'",
+      "studyType": "Certificado de Educación Secundaria",
+      "startDate": "2006",
+      "endDate": "2010"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Desarrollador front-end",
+      "level": "Advanced",
+      "keywords": [
+        "HTML",
+        "SCSS/SASS/CSS",
+        "Javascript",
+        "ReactJS",
+        "Redux.js",
+        "Bootstrap",
+        "Material Design",
+        "WebPack",
+        "Vite",
+        "Babel",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Desarrollador de back-end",
+      "level": "Intermediate",
+      "keywords": [
+        "Node.js",
+        "Restful API's",
+        "Playwright-chromium",
+        "pm2",
+        "expressJS",
+        "koaJS",
+        "MongoDB",
+        "MySQL/MariaDB",
+        "sqlite3"
+      ]
+    },
+    {
+      "name": "Control de versiones",
+      "level": "Advanced",
+      "keywords": ["Git", "Git flow", "GitHub"]
+    },
+    {
+      "name": "Habilidades blandas",
+      "level": "Master",
+      "keywords": [
+        "Motivar a las personas a hacer lo mejor que puedan",
+        "Personas y habilidades interpersonales",
+        "Buen comunicador",
+        "auto aprendizaje",
+        "Pensamiento crítico",
+        "Entusiasta",
+        "Leal",
+        "Iniciativa",
+        "Intervención"
+      ]
+    },
+    {
+      "name": "Otras habilidades de desarrollo",
+      "level": "Intermediate",
+      "keywords": [
+        "Linux/Bash",
+        "NFC",
+        "Arduino",
+        "Raspberry",
+        "Electrónica básica / Soldadura"
+      ]
+    },
+    {
+      "name": "CMS",
+      "level": "Intermediate",
+      "keywords": ["WordPress", "Srapi"]
+    },
+    {
+      "name": "Otros lenguajes de programación",
+      "level": "Beginner",
+      "keywords": ["Java", "Python"]
+    }
+  ],
+  "languages": [
+    { "language": "Español", "fluency": "Native speaker" },
+    { "language": "Inglés","fluency": "Intermediate" },
+    { "language": "Alemán", "fluency": "Beginner" }
+  ],
+  "interests": [
+    { "name": "Naturaleza" },
+    { "name": "Ciclismo" },
+    { "name": "Baile" },
+    { "name": "Cocinar" }
+  ],
+  "projects": [
+    {
+      "name": "(Privado) Traductor de whatsapp",
+      "description": "Todavía en progreso. Ahora vivo en Alemania. Por eso tengo varios grupos de amigos alemanes y varios chats con alemanes. Para evitar copiar y pegar cada vez que escriben un mensaje, se me ocurrió la idea de crear un traductor para WhatsApp. Utilicé whatsapp-web.js para el bot y dramaturgo-chromium para scrape DeepL.",
+      "keywords": ["whatsapp-web.js", "Playwright-Chromium", "pm2"],
+      "startDate": "2023-06-10",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    },
+    {
+      "name": "Wg-Gesucht-post",
+      "description": "Decidí crear una herramienta que me permitiera enviar mensajes de forma masiva para todos los anuncios/ofertas con una URL válida. Contiene dos partes: frontend/backend. El frontend está hecho en React.js y el backend está hecho en Koa",
+      "keywords": ["Koa", "Playwright-chromium", "react", "formik", "axios"],
+      "startDate": "2023-09-04",
+      "url": "https://github.com/javix64/wg-gesucht-post",
+      "type": "application"
+    },
+    {
+      "name": "(Privado) Raspado de cómics + Publicación mediante la API de WooCommerce en su sitio de WordPress",
+      "description": "Un cliente quería obtener los datos de todos los cómics en un sitio web mayorista y luego publicarlos todos en su sitio web a través de la API de WooCommerce.",
+      "keywords": ["Koa", "Playwright-chromium", "react", "formik", "axios"],
+      "startDate": "2022-04-17",
+      "endDate": "2023-07-27",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    },
+    {
+      "name": "(Privado) Scraping de videos",
+      "description": "En 2021, me suscribí a un sitio web de vídeos famoso. Comencé a navegar por la API y me di cuenta de que después de que finalizara mi suscripción, la API seguía funcionando sin problemas, así que decidí descargar todos los videos.",
+      "keywords": ["axios", "mongoose", "nodejs-file-downloader"],
+      "startDate": "2021-08-21",
+      "endDate": "2022-02-08",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    },
+    {
+      "name": "(Privado) G2 PDF Evolución",
+      "description": "Un amigo y yo decidimos hacer una aplicación para generar pdf a través de heroku web y un bot de telegram.",
+      "keywords": [
+        "axios",
+        "express",
+        "node-cron",
+        "node-telegram-bot-api",
+        "pdf-lib"
+      ],
+      "startDate": "2021-12-07",
+      "endDate": "2021-12-21",
+      "url": "https://github.com/javix64",
+      "type": "application"
+    }
+  ],
+  "references": [],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "volunteer": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2023-09-21T12:55:00"
+  }
+}

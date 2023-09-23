@@ -1,0 +1,22 @@
+{
+  "name": "javixresume2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild1": "jsontt ./src/resume.en.json --translator bing --from en --to de --name resume",
+    "build": "resume export -r ./src/resume/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/en -f pdf ./src/output/JavierHM.resume.en.pdf && resume export -r ./src/resume/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/en -f html ./src/output/JavierHM.resume.en.html && resume export -r ./src/resume/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/es -f pdf ./src/output/JavierHM.resume.es.pdf && resume export -r ./src/resume/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/es -f html ./src/output/JavierHM.resume.es.html && resume export -r ./src/resume/resume.de.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/de -f pdf ./src/output/JavierHM.resume.de.pdf && resume export -r ./src/resume/resume.de.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/de -f html ./src/output/JavierHM.resume.de.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "resume": "resume export -r ./json/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/en -f html ./public/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@parvineyvazov/json-translator": "^1.8.0",
+    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "jsonresume-theme-stackoverflow-react": "github:javix64/jsonresume-theme-stackoverflow-react",
+    "resume-cli": "^3.0.8"
+  }
+}
