@@ -19,8 +19,15 @@ jobs:
       
       - name: Install dependencies.
         run: npm install 
-      - name: Build resume.
-        run: npm run resume
+      
+      - uses: kelvintaywl/action-jsonresume-export@v1
+        name: Export resume as HTML
+        with:
+          theme: stackoverflow-react
+          resume_filepath: json/resume.en.json
+          # modifies the index.html in-place
+          output_filepath: index.html
+          output_filepath: public/index.pdf
       
       - name: 📂 Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
