@@ -9,9 +9,8 @@
     "summary": "Como desarrollador full-stack, he adquirido un conjunto diverso de habilidades que abarcan React para el desarrollo front-end dinámico, Node.js para soluciones sólidas del lado del servidor y el arte del web scraping y la automatización. Mi dominio de estas tecnologías me permite crear aplicaciones web modernas y responsivas con un buen ojo para la experiencia del usuario. Me comprometo a mantenerme actualizado con las últimas tendencias de la industria, asegurándome de poder ofrecer soluciones de vanguardia para satisfacer las necesidades de los clientes de manera efectiva.",
     "location": {
       "city": "Granada",
-      "postalCode": "18008",
       "countryCode": "ES",
-      "region": "Andalucía"
+      "region": "España"
     },
     "profiles": [
       {
@@ -82,18 +81,6 @@
         "(SASS/SCSS) Diseño de interfaz web",
         "Proyecto Final - Pruebas de extremo a extremo: Cypress VS TestCafe"
       ]
-    },
-    {
-      "institution": "IES PADRE SUÁREZ",
-      "studyType": "certificado de licenciatura",
-      "startDate": "2017",
-      "endDate": "2019"
-    },
-    {
-      "institution": "IES AVE MARÍA 'LA QUINTA'",
-      "studyType": "Certificado de Educación Secundaria",
-      "startDate": "2006",
-      "endDate": "2010"
     }
   ],
   "skills": [

@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@parvineyvazov/json-translator": "^1.8.0",
-    "jsonresume-theme-stackoverflow": "^2.0.2",
+    "jsonresume-theme-stackoverflow": "git+https://github.com/javix64/jsonresume-theme-stackoverflow-v2.git",
     "resume-cli": "^3.0.8"
   }
 }
