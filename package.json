@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "prebuild1": "jsontt ./src/resume.en.json --translator bing --from en --to de --name resume",
-    "build": "resume export -r ./src/resume/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/en -f pdf ./src/output/JavierHM.resume.en.pdf && resume export -r ./src/resume/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/en -f html ./src/output/JavierHM.resume.en.html && resume export -r ./src/resume/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/es -f pdf ./src/output/JavierHM.resume.es.pdf && resume export -r ./src/resume/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/es -f html ./src/output/JavierHM.resume.es.html && resume export -r ./src/resume/resume.de.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/de -f pdf ./src/output/JavierHM.resume.de.pdf && resume export -r ./src/resume/resume.de.json -t ./node_modules/jsonresume-theme-stackoverflow-react/dist/de -f html ./src/output/JavierHM.resume.de.html",
+    "build": "resume export -r ./src/resume/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow/dist/en -f pdf ./src/output/JavierHM.resume.en.pdf && resume export -r ./src/resume/resume.en.json -t ./node_modules/jsonresume-theme-stackoverflow/dist/en -f html ./src/output/JavierHM.resume.en.html && resume export -r ./src/resume/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow/dist/es -f pdf ./src/output/JavierHM.resume.es.pdf && resume export -r ./src/resume/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow/dist/es -f html ./src/output/JavierHM.resume.es.html && resume export -r ./src/resume/resume.de.json -t ./node_modules/jsonresume-theme-stackoverflow/dist/de -f pdf ./src/output/JavierHM.resume.de.pdf && resume export -r ./src/resume/resume.de.json -t ./node_modules/jsonresume-theme-stackoverflow/dist/de -f html ./src/output/JavierHM.resume.de.html",
+    "build:es":"resumed render json/resume.es.json -t jsonresume-theme-stackoverflow -f html -o public/index.html && resume export -r ./json/resume.es.json -t ./node_modules/jsonresume-theme-stackoverflow -f pdf ./public/JavierHM.resume.es.pdf ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "resume": "resume export -r ./json/resume.en.json -t stackoverflow-react -f html ./index.html"
+    "serve":"resume serve ./json/resume.es.json",
+    "resume": "resume export -r ./json/resume.en.json -t stackoverflow-theme-stackoverflow -f html ./index.html",
+    "resumed": "resumed render json/resume.es.json -t jsonresume-theme-stackoverflow -f html -o resume.es.html"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "@parvineyvazov/json-translator": "^1.8.0",
-    "jsonresume-theme-stackoverflow": "^2.0.2",
-    "jsonresume-theme-stackoverflow-react": "^2.1.0",
-    "resume-cli": "^3.0.8"
+    "jsonresume-theme-stackoverflow": "^2.1.0",
+    "resume-cli": "^3.0.8",
+    "resumed": "^4.1.0"
   }
 }
